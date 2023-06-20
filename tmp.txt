@@ -1,0 +1,38 @@
+
+import sys
+import hashlib
+import random
+p = 31
+Fp = GF(p)
+n = 256
+k = 52
+r = n-k
+t = n
+z = 3
+Fz = GF(z)
+
+mseed = hex(initial_seed())
+salt = hex(getrandbits(256)) 
+
+def hash(input):
+    dig = hashlib.sha256()
+    dig.update(input.encode('utf-8'))
+    dig = dig.hexdigest()
+    return dig
+
+def compute_node_value(seed_vp, salt, i):
+    input = seed_vp+salt+str(i)
+    node_value = hash(input)
+    sx = node_value[len(node_value)//2:]
+    dx = node_value[:len(node_value)//2]
+    return sx, dx
+#
+#CREA VETTORE FOGLIE
+def SeedTreeLeaves(seed_vp, salt, i, lev):
+    sx, dx = compute_node_value(seed_vp, salt, i)
+    if lev == lev_leaf:
+        print(len(sx+dx)*4)
+        return [sx+dx]
+    else:
+        return SeedTreeLeaves(sx, salt, i*2, lev+1) + SeedTreeLeaves(dx, salt, i*2+1, lev+1)     
+#

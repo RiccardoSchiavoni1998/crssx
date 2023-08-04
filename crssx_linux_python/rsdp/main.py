@@ -13,7 +13,7 @@ k = int(os.environ.get('k'))
 w = int(os.environ.get('w'))
 t = int(os.environ.get('t'))
 z = int(os.environ.get('z'))
-lamb = int(os.environ.get('lamb'))
+lambda_ = int(os.environ.get('lambda_'))
 
 r=n-k
 lev_leaf=log(t,2)

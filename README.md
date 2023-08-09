@@ -22,13 +22,12 @@ Tutorial: https://www.youtube.com/watch?v=sXb58bIstIw
 
 
 
-
-VARIABILI ENV PER TESTARE
-p=127
-n=128
-k=76
-w=9
-t=16
-z=7
-lambda_=128
+Variabili da valorizzare nel .env:
+p=
+n=
+k=
+w=
+t=
+z=
+lambda_=
 

@@ -1,0 +1,2103 @@
+{
+    "67": [
+        {
+            "Params": {
+                "n": 148,
+                "k": 88,
+                "z": 5,
+                "p": 67
+            },
+            "Pk Size": 1241.42655823108,
+            "State": "Ok",
+            "Res": {
+                "Stern": 143.63241627791726,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.4039782221581,
+                    "NN on Set E": 131.4039782221581,
+                    "BF on Shifted Set": 131.4039782221581,
+                    "NN on Shifted Set": 131.4039782221581
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.4039782221581,
+                    "NN on Set E": 131.4039782221581,
+                    "BF on Shifted Set": 131.4039782221581,
+                    "NN on Shifted Set": 131.4039782221581
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 149,
+                "k": 89,
+                "z": 5,
+                "p": 67
+            },
+            "Pk Size": 1249.8145755164253,
+            "State": "Ok",
+            "Res": {
+                "Stern": 145.16995839276265,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.66968616929296,
+                    "NN on Set E": 130.66968616929296,
+                    "BF on Shifted Set": 130.66968616929296,
+                    "NN on Shifted Set": 130.66968616929296
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.66968616929296,
+                    "NN on Set E": 130.66968616929296,
+                    "BF on Shifted Set": 130.66968616929296,
+                    "NN on Shifted Set": 130.66968616929296
+                }
+            }
+        }
+    ],
+    "71": [
+        {
+            "Params": {
+                "n": 143,
+                "k": 85,
+                "z": 5,
+                "p": 71
+            },
+            "Pk Size": 1211.4495556580623,
+            "State": "Ok",
+            "Res": {
+                "Stern": 138.80687210017408,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.43770967268762,
+                    "NN on Set E": 131.43770967268762,
+                    "BF on Shifted Set": 131.43770967268762,
+                    "NN on Shifted Set": 131.43770967268762
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.43770967268762,
+                    "NN on Set E": 131.43770967268762,
+                    "BF on Shifted Set": 131.43770967268762,
+                    "NN on Shifted Set": 131.43770967268762
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 144,
+                "k": 86,
+                "z": 5,
+                "p": 71
+            },
+            "Pk Size": 1219.9212308724545,
+            "State": "Ok",
+            "Res": {
+                "Stern": 140.2831745287231,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.85988219742998,
+                    "NN on Set E": 130.85988219742998,
+                    "BF on Shifted Set": 130.85988219742998,
+                    "NN on Shifted Set": 130.85988219742998
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.85988219742998,
+                    "NN on Set E": 130.85988219742998,
+                    "BF on Shifted Set": 130.85988219742998,
+                    "NN on Shifted Set": 130.85988219742998
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 145,
+                "k": 87,
+                "z": 5,
+                "p": 71
+            },
+            "Pk Size": 1228.3929060868466,
+            "State": "Ok",
+            "Res": {
+                "Stern": 141.55665919841508,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.29292151609417,
+                    "NN on Set E": 130.29292151609417,
+                    "BF on Shifted Set": 130.29292151609417,
+                    "NN on Shifted Set": 130.29292151609417
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.29292151609417,
+                    "NN on Set E": 130.29292151609417,
+                    "BF on Shifted Set": 130.29292151609417,
+                    "NN on Shifted Set": 130.29292151609417
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 146,
+                "k": 87,
+                "z": 5,
+                "p": 71
+            },
+            "Pk Size": 1236.8645813012386,
+            "State": "Ok",
+            "Res": {
+                "Stern": 141.5566604722886,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.63531371354125,
+                    "NN on Set E": 133.63531371354125,
+                    "BF on Shifted Set": 133.63531371354125,
+                    "NN on Shifted Set": 133.63531371354125
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.63531371354125,
+                    "NN on Set E": 133.63531371354125,
+                    "BF on Shifted Set": 133.63531371354125,
+                    "NN on Shifted Set": 133.63531371354125
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 147,
+                "k": 88,
+                "z": 5,
+                "p": 71
+            },
+            "Pk Size": 1245.3362565156306,
+            "State": "Ok",
+            "Res": {
+                "Stern": 143.2349540877005,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.6556231484253,
+                    "NN on Set E": 132.6556231484253,
+                    "BF on Shifted Set": 132.6556231484253,
+                    "NN on Shifted Set": 132.6556231484253
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.6556231484253,
+                    "NN on Set E": 132.6556231484253,
+                    "BF on Shifted Set": 132.6556231484253,
+                    "NN on Shifted Set": 132.6556231484253
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 148,
+                "k": 88,
+                "z": 5,
+                "p": 71
+            },
+            "Pk Size": 1253.8079317300226,
+            "State": "Ok",
+            "Res": {
+                "Stern": 143.23495453624764,
+                "Bjmm 2LV": {
+                    "BF on Set E": 135.99801534587237,
+                    "NN on Set E": 135.99801534587237,
+                    "BF on Shifted Set": 135.99801534587237,
+                    "NN on Shifted Set": 135.99801534587237
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 135.99801534587237,
+                    "NN on Set E": 135.99801534587237,
+                    "BF on Shifted Set": 135.99801534587237,
+                    "NN on Shifted Set": 135.99801534587237
+                }
+            }
+        }
+    ],
+    "73": [
+        {
+            "Params": {
+                "n": 141,
+                "k": 84,
+                "z": 5,
+                "p": 73
+            },
+            "Pk Size": 1200.1571241812005,
+            "State": "Ok",
+            "Res": {
+                "Stern": 136.88222238308327,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.05698993409476,
+                    "NN on Set E": 131.05698993409476,
+                    "BF on Shifted Set": 131.05698993409476,
+                    "NN on Shifted Set": 131.05698993409476
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.05698993409476,
+                    "NN on Set E": 131.05698993409476,
+                    "BF on Shifted Set": 131.05698993409476,
+                    "NN on Shifted Set": 131.05698993409476
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 142,
+                "k": 85,
+                "z": 5,
+                "p": 73
+            },
+            "Pk Size": 1208.668876834968,
+            "State": "Ok",
+            "Res": {
+                "Stern": 138.60482281773952,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.13936354908017,
+                    "NN on Set E": 130.13936354908017,
+                    "BF on Shifted Set": 130.13936354908017,
+                    "NN on Shifted Set": 130.13936354908017
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.13936354908017,
+                    "NN on Set E": 130.13936354908017,
+                    "BF on Shifted Set": 130.13936354908017,
+                    "NN on Shifted Set": 130.13936354908017
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 143,
+                "k": 85,
+                "z": 5,
+                "p": 73
+            },
+            "Pk Size": 1217.1806294887353,
+            "State": "Ok",
+            "Res": {
+                "Stern": 138.60482296657216,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.52183318590235,
+                    "NN on Set E": 133.52183318590235,
+                    "BF on Shifted Set": 133.52183318590235,
+                    "NN on Shifted Set": 133.52183318590235
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.52183318590235,
+                    "NN on Set E": 133.52183318590235,
+                    "BF on Shifted Set": 133.52183318590235,
+                    "NN on Shifted Set": 133.52183318590235
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 144,
+                "k": 86,
+                "z": 5,
+                "p": 73
+            },
+            "Pk Size": 1225.6923821425025,
+            "State": "Ok",
+            "Res": {
+                "Stern": 139.87922408248812,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.6434962229718,
+                    "NN on Set E": 132.6434962229718,
+                    "BF on Shifted Set": 132.6434962229718,
+                    "NN on Shifted Set": 132.6434962229718
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.6434962229718,
+                    "NN on Set E": 132.6434962229718,
+                    "BF on Shifted Set": 132.6434962229718,
+                    "NN on Shifted Set": 132.6434962229718
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 145,
+                "k": 87,
+                "z": 5,
+                "p": 73
+            },
+            "Pk Size": 1234.20413479627,
+            "State": "Ok",
+            "Res": {
+                "Stern": 141.50454928326235,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.82087665925556,
+                    "NN on Set E": 131.82087665925556,
+                    "BF on Shifted Set": 131.82087665925556,
+                    "NN on Shifted Set": 131.82087665925556
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.82087665925556,
+                    "NN on Set E": 131.82087665925556,
+                    "BF on Shifted Set": 131.82087665925556,
+                    "NN on Shifted Set": 131.82087665925556
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 146,
+                "k": 87,
+                "z": 5,
+                "p": 73
+            },
+            "Pk Size": 1242.7158874500374,
+            "State": "Ok",
+            "Res": {
+                "Stern": 141.50454953811274,
+                "Bjmm 2LV": {
+                    "BF on Set E": 135.2033462960779,
+                    "NN on Set E": 135.2033462960779,
+                    "BF on Shifted Set": 135.2033462960779,
+                    "NN on Shifted Set": 135.2033462960779
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 135.2033462960779,
+                    "NN on Set E": 135.2033462960779,
+                    "BF on Shifted Set": 135.2033462960779,
+                    "NN on Shifted Set": 135.2033462960779
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 147,
+                "k": 88,
+                "z": 5,
+                "p": 73
+            },
+            "Pk Size": 1251.2276401038048,
+            "State": "Ok",
+            "Res": {
+                "Stern": 143.14896103684066,
+                "Bjmm 2LV": {
+                    "BF on Set E": 134.34557898610717,
+                    "NN on Set E": 134.34557898610717,
+                    "BF on Shifted Set": 134.34557898610717,
+                    "NN on Shifted Set": 134.34557898610717
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 134.34557898610717,
+                    "NN on Set E": 134.34557898610717,
+                    "BF on Shifted Set": 134.34557898610717,
+                    "NN on Shifted Set": 134.34557898610717
+                }
+            }
+        }
+    ],
+    "79": [
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1173.0964026567674,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.06374556135145,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.26854138885983,
+                    "NN on Set E": 131.26854138885983,
+                    "BF on Shifted Set": 131.26854138885983,
+                    "NN on Shifted Set": 131.26854138885983
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.26854138885983,
+                    "NN on Set E": 131.26854138885983,
+                    "BF on Shifted Set": 131.26854138885983,
+                    "NN on Shifted Set": 131.26854138885983
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1181.7221114998317,
+            "State": "Ok",
+            "Res": {
+                "Stern": 133.74918643125093,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.43715249647897,
+                    "NN on Set E": 130.43715249647897,
+                    "BF on Shifted Set": 130.43715249647897,
+                    "NN on Shifted Set": 130.43715249647897
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.43715249647897,
+                    "NN on Set E": 130.43715249647897,
+                    "BF on Shifted Set": 130.43715249647897,
+                    "NN on Shifted Set": 130.43715249647897
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 138,
+                "k": 82,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1190.3478203428963,
+            "State": "Ok",
+            "Res": {
+                "Stern": 133.7491864345636,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.7491864345636,
+                    "NN on Set E": 133.7491864345636,
+                    "BF on Shifted Set": 133.7491864345636,
+                    "NN on Shifted Set": 133.7491864345636
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.7491864345636,
+                    "NN on Set E": 133.7491864345636,
+                    "BF on Shifted Set": 133.7491864345636,
+                    "NN on Shifted Set": 133.7491864345636
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 139,
+                "k": 83,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1198.9735291859608,
+            "State": "Ok",
+            "Res": {
+                "Stern": 134.8954540835773,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.1999971002234,
+                    "NN on Set E": 133.1999971002234,
+                    "BF on Shifted Set": 133.1999971002234,
+                    "NN on Shifted Set": 133.1999971002234
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.1999971002234,
+                    "NN on Set E": 133.1999971002234,
+                    "BF on Shifted Set": 133.1999971002234,
+                    "NN on Shifted Set": 133.1999971002234
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 140,
+                "k": 84,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1207.5992380290252,
+            "State": "Ok",
+            "Res": {
+                "Stern": 136.73036371064623,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.5377223823154,
+                    "NN on Set E": 132.5377223823154,
+                    "BF on Shifted Set": 132.5377223823154,
+                    "NN on Shifted Set": 132.5377223823154
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.5377223823154,
+                    "NN on Set E": 132.5377223823154,
+                    "BF on Shifted Set": 132.5377223823154,
+                    "NN on Shifted Set": 132.5377223823154
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 141,
+                "k": 84,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1216.2249468720897,
+            "State": "Ok",
+            "Res": {
+                "Stern": 136.73036371588782,
+                "Bjmm 2LV": {
+                    "BF on Set E": 136.03414820842156,
+                    "NN on Set E": 136.03414820842156,
+                    "BF on Shifted Set": 136.03414820842156,
+                    "NN on Shifted Set": 136.03414820842156
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 136.03414820842156,
+                    "NN on Set E": 136.03414820842156,
+                    "BF on Shifted Set": 136.03414820842156,
+                    "NN on Shifted Set": 136.03414820842156
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 142,
+                "k": 85,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1224.850655715154,
+            "State": "Ok",
+            "Res": {
+                "Stern": 138.35703444890956,
+                "Bjmm 2LV": {
+                    "BF on Set E": 135.06500354453735,
+                    "NN on Set E": 135.06500354453735,
+                    "BF on Shifted Set": 135.06500354453735,
+                    "NN on Shifted Set": 135.06500354453735
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 135.06500354453735,
+                    "NN on Set E": 135.06500354453735,
+                    "BF on Shifted Set": 135.06500354453735,
+                    "NN on Shifted Set": 135.06500354453735
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 143,
+                "k": 85,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1233.4763645582186,
+            "State": "Ok",
+            "Res": {
+                "Stern": 138.3570344505683,
+                "Bjmm 2LV": {
+                    "BF on Set E": 138.3570344505683,
+                    "NN on Set E": 138.3570344505683,
+                    "BF on Shifted Set": 138.3570344505683,
+                    "NN on Shifted Set": 138.3570344505683
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 138.3570344505683,
+                    "NN on Set E": 138.3570344505683,
+                    "BF on Shifted Set": 138.3570344505683,
+                    "NN on Shifted Set": 138.3570344505683
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 144,
+                "k": 86,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1242.1020734012832,
+            "State": "Ok",
+            "Res": {
+                "Stern": 139.26707855628237,
+                "Bjmm 2LV": {
+                    "BF on Set E": 137.61065761287398,
+                    "NN on Set E": 137.61065761287398,
+                    "BF on Shifted Set": 137.61065761287398,
+                    "NN on Shifted Set": 137.61065761287398
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 137.61065761287398,
+                    "NN on Set E": 137.61065761287398,
+                    "BF on Shifted Set": 137.61065761287398,
+                    "NN on Shifted Set": 137.61065761287398
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 145,
+                "k": 87,
+                "z": 5,
+                "p": 79
+            },
+            "Pk Size": 1250.7277822443475,
+            "State": "Ok",
+            "Res": {
+                "Stern": 140.99458283355258,
+                "Bjmm 2LV": {
+                    "BF on Set E": 136.69470205934752,
+                    "NN on Set E": 136.69470205934752,
+                    "BF on Shifted Set": 136.69470205934752,
+                    "NN on Shifted Set": 136.69470205934752
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 136.69470205934752,
+                    "NN on Set E": 136.69470205934752,
+                    "BF on Shifted Set": 136.69470205934752,
+                    "NN on Shifted Set": 136.69470205934752
+                }
+            }
+        }
+    ],
+    "83": [
+        {
+            "Params": {
+                "n": 134,
+                "k": 80,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1165.3936485153945,
+            "State": "Ok",
+            "Res": {
+                "Stern": 130.28595420131845,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.28595420131845,
+                    "NN on Set E": 130.28595420131845,
+                    "BF on Shifted Set": 130.28595420131845,
+                    "NN on Shifted Set": 130.28595420131845
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.28595420131845,
+                    "NN on Set E": 130.28595420131845,
+                    "BF on Shifted Set": 130.28595420131845,
+                    "NN on Shifted Set": 130.28595420131845
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 135,
+                "k": 81,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1174.0906160416287,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.986663746426,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.68875577084762,
+                    "NN on Set E": 131.68875577084762,
+                    "BF on Shifted Set": 131.68875577084762,
+                    "NN on Shifted Set": 131.68875577084762
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.68875577084762,
+                    "NN on Set E": 131.68875577084762,
+                    "BF on Shifted Set": 131.68875577084762,
+                    "NN on Shifted Set": 131.68875577084762
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1182.787583567863,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.98666374715532,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.98666374715532,
+                    "NN on Set E": 131.98666374715532,
+                    "BF on Shifted Set": 131.98666374715532,
+                    "NN on Shifted Set": 131.98666374715532
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.98666374715532,
+                    "NN on Set E": 131.98666374715532,
+                    "BF on Shifted Set": 131.98666374715532,
+                    "NN on Shifted Set": 131.98666374715532
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1191.4845510940972,
+            "State": "Ok",
+            "Res": {
+                "Stern": 133.62103227781924,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.62103227781924,
+                    "NN on Set E": 133.62103227781924,
+                    "BF on Shifted Set": 133.62103227781924,
+                    "NN on Shifted Set": 133.62103227781924
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.62103227781924,
+                    "NN on Set E": 133.62103227781924,
+                    "BF on Shifted Set": 133.62103227781924,
+                    "NN on Shifted Set": 133.62103227781924
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 138,
+                "k": 82,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1200.1815186203316,
+            "State": "Ok",
+            "Res": {
+                "Stern": 133.6210322780389,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.6210322780389,
+                    "NN on Set E": 133.6210322780389,
+                    "BF on Shifted Set": 133.6210322780389,
+                    "NN on Shifted Set": 133.6210322780389
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.6210322780389,
+                    "NN on Set E": 133.6210322780389,
+                    "BF on Shifted Set": 133.6210322780389,
+                    "NN on Shifted Set": 133.6210322780389
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 139,
+                "k": 83,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1208.8784861465658,
+            "State": "Ok",
+            "Res": {
+                "Stern": 134.5641792775974,
+                "Bjmm 2LV": {
+                    "BF on Set E": 134.5641792775974,
+                    "NN on Set E": 134.5641792775974,
+                    "BF on Shifted Set": 134.5641792775974,
+                    "NN on Shifted Set": 134.5641792775974
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 134.5641792775974,
+                    "NN on Set E": 134.5641792775974,
+                    "BF on Shifted Set": 134.5641792775974,
+                    "NN on Shifted Set": 134.5641792775974
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 140,
+                "k": 84,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1217.5754536728002,
+            "State": "Ok",
+            "Res": {
+                "Stern": 136.31804036357366,
+                "Bjmm 2LV": {
+                    "BF on Set E": 136.19538747201426,
+                    "NN on Set E": 136.19538747201426,
+                    "BF on Shifted Set": 136.19538747201426,
+                    "NN on Shifted Set": 136.19538747201426
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 136.19538747201426,
+                    "NN on Set E": 136.19538747201426,
+                    "BF on Shifted Set": 136.19538747201426,
+                    "NN on Shifted Set": 136.19538747201426
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 141,
+                "k": 84,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1226.2724211990344,
+            "State": "Ok",
+            "Res": {
+                "Stern": 136.3180403639045,
+                "Bjmm 2LV": {
+                    "BF on Set E": 136.3180403639045,
+                    "NN on Set E": 136.3180403639045,
+                    "BF on Shifted Set": 136.3180403639045,
+                    "NN on Shifted Set": 136.3180403639045
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 136.3180403639045,
+                    "NN on Set E": 136.3180403639045,
+                    "BF on Shifted Set": 136.3180403639045,
+                    "NN on Shifted Set": 136.3180403639045
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 142,
+                "k": 85,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1234.9693887252688,
+            "State": "Ok",
+            "Res": {
+                "Stern": 137.6895200399795,
+                "Bjmm 2LV": {
+                    "BF on Set E": 137.6895200399795,
+                    "NN on Set E": 137.6895200399795,
+                    "BF on Shifted Set": 137.6895200399795,
+                    "NN on Shifted Set": 137.6895200399795
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 137.6895200399795,
+                    "NN on Set E": 137.6895200399795,
+                    "BF on Shifted Set": 137.6895200399795,
+                    "NN on Shifted Set": 137.6895200399795
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 143,
+                "k": 85,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1243.666356251503,
+            "State": "Ok",
+            "Res": {
+                "Stern": 137.68952004007912,
+                "Bjmm 2LV": {
+                    "BF on Set E": 137.68952004007912,
+                    "NN on Set E": 137.68952004007912,
+                    "BF on Shifted Set": 137.68952004007912,
+                    "NN on Shifted Set": 137.68952004007912
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 137.68952004007912,
+                    "NN on Set E": 137.68952004007912,
+                    "BF on Shifted Set": 137.68952004007912,
+                    "NN on Shifted Set": 137.68952004007912
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 144,
+                "k": 86,
+                "z": 5,
+                "p": 83
+            },
+            "Pk Size": 1252.3633237777374,
+            "State": "Ok",
+            "Res": {
+                "Stern": 139.14068253756645,
+                "Bjmm 2LV": {
+                    "BF on Set E": 139.14068253756645,
+                    "NN on Set E": 139.14068253756645,
+                    "BF on Shifted Set": 139.14068253756645,
+                    "NN on Shifted Set": 139.14068253756645
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 139.14068253756645,
+                    "NN on Set E": 139.14068253756645,
+                    "BF on Shifted Set": 139.14068253756645,
+                    "NN on Shifted Set": 139.14068253756645
+                }
+            }
+        }
+    ],
+    "89": [
+        {
+            "Params": {
+                "n": 135,
+                "k": 81,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1187.6843059902576,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.54777423612654,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.54777423612654,
+                    "NN on Set E": 131.54777423612654,
+                    "BF on Shifted Set": 131.54777423612654,
+                    "NN on Shifted Set": 131.54777423612654
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.54777423612654,
+                    "NN on Set E": 131.54777423612654,
+                    "BF on Shifted Set": 131.54777423612654,
+                    "NN on Shifted Set": 131.54777423612654
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1196.4819675161114,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.54777423614345,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.54777423614345,
+                    "NN on Set E": 131.54777423614345,
+                    "BF on Shifted Set": 131.54777423614345,
+                    "NN on Shifted Set": 131.54777423614345
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.54777423614345,
+                    "NN on Set E": 131.54777423614345,
+                    "BF on Shifted Set": 131.54777423614345,
+                    "NN on Shifted Set": 131.54777423614345
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1205.279629041965,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.905496763551,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.905496763551,
+                    "NN on Set E": 132.905496763551,
+                    "BF on Shifted Set": 132.905496763551,
+                    "NN on Shifted Set": 132.905496763551
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.905496763551,
+                    "NN on Set E": 132.905496763551,
+                    "BF on Shifted Set": 132.905496763551,
+                    "NN on Shifted Set": 132.905496763551
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 138,
+                "k": 82,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1214.0772905678189,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.90549676355576,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.90549676355576,
+                    "NN on Set E": 132.90549676355576,
+                    "BF on Shifted Set": 132.90549676355576,
+                    "NN on Shifted Set": 132.90549676355576
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.90549676355576,
+                    "NN on Set E": 132.90549676355576,
+                    "BF on Shifted Set": 132.90549676355576,
+                    "NN on Shifted Set": 132.90549676355576
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 139,
+                "k": 83,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1222.8749520936726,
+            "State": "Ok",
+            "Res": {
+                "Stern": 134.38133352735548,
+                "Bjmm 2LV": {
+                    "BF on Set E": 134.38133352735548,
+                    "NN on Set E": 134.38133352735548,
+                    "BF on Shifted Set": 134.38133352735548,
+                    "NN on Shifted Set": 134.38133352735548
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 134.38133352735548,
+                    "NN on Set E": 134.38133352735548,
+                    "BF on Shifted Set": 134.38133352735548,
+                    "NN on Shifted Set": 134.38133352735548
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 140,
+                "k": 84,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1231.6726136195264,
+            "State": "Ok",
+            "Res": {
+                "Stern": 136.02781895672626,
+                "Bjmm 2LV": {
+                    "BF on Set E": 136.02781895672626,
+                    "NN on Set E": 136.02781895672626,
+                    "BF on Shifted Set": 136.02781895672626,
+                    "NN on Shifted Set": 136.02781895672626
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 136.02781895672626,
+                    "NN on Set E": 136.02781895672626,
+                    "BF on Shifted Set": 136.02781895672626,
+                    "NN on Shifted Set": 136.02781895672626
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 141,
+                "k": 84,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1240.4702751453801,
+            "State": "Ok",
+            "Res": {
+                "Stern": 136.02781895673294,
+                "Bjmm 2LV": {
+                    "BF on Set E": 136.02781895673294,
+                    "NN on Set E": 136.02781895673294,
+                    "BF on Shifted Set": 136.02781895673294,
+                    "NN on Shifted Set": 136.02781895673294
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 136.02781895673294,
+                    "NN on Set E": 136.02781895673294,
+                    "BF on Shifted Set": 136.02781895673294,
+                    "NN on Shifted Set": 136.02781895673294
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 142,
+                "k": 85,
+                "z": 5,
+                "p": 89
+            },
+            "Pk Size": 1249.2679366712339,
+            "State": "Ok",
+            "Res": {
+                "Stern": 137.02280320648802,
+                "Bjmm 2LV": {
+                    "BF on Set E": 137.02280320648802,
+                    "NN on Set E": 137.02280320648802,
+                    "BF on Shifted Set": 137.02280320648802,
+                    "NN on Shifted Set": 137.02280320648802
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 137.02280320648802,
+                    "NN on Set E": 137.02280320648802,
+                    "BF on Shifted Set": 137.02280320648802,
+                    "NN on Shifted Set": 137.02280320648802
+                }
+            }
+        }
+    ],
+    "97": [
+        {
+            "Params": {
+                "n": 135,
+                "k": 81,
+                "z": 5,
+                "p": 97
+            },
+            "Pk Size": 1204.4485265050562,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.24651911379965,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.24651911379965,
+                    "NN on Set E": 131.24651911379965,
+                    "BF on Shifted Set": 131.24651911379965,
+                    "NN on Shifted Set": 131.24651911379965
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.24651911379965,
+                    "NN on Set E": 131.24651911379965,
+                    "BF on Shifted Set": 131.24651911379965,
+                    "NN on Shifted Set": 131.24651911379965
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 97
+            },
+            "Pk Size": 1213.3703674421306,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.24651911379982,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.24651911379982,
+                    "NN on Set E": 131.24651911379982,
+                    "BF on Shifted Set": 131.24651911379982,
+                    "NN on Shifted Set": 131.24651911379982
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.24651911379982,
+                    "NN on Set E": 131.24651911379982,
+                    "BF on Shifted Set": 131.24651911379982,
+                    "NN on Shifted Set": 131.24651911379982
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 97
+            },
+            "Pk Size": 1222.2922083792052,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.19628870676593,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.19628870676593,
+                    "NN on Set E": 132.19628870676593,
+                    "BF on Shifted Set": 132.19628870676593,
+                    "NN on Shifted Set": 132.19628870676593
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.19628870676593,
+                    "NN on Set E": 132.19628870676593,
+                    "BF on Shifted Set": 132.19628870676593,
+                    "NN on Shifted Set": 132.19628870676593
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 138,
+                "k": 82,
+                "z": 5,
+                "p": 97
+            },
+            "Pk Size": 1231.2140493162797,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.19628870676598,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.19628870676598,
+                    "NN on Set E": 132.19628870676598,
+                    "BF on Shifted Set": 132.19628870676598,
+                    "NN on Shifted Set": 132.19628870676598
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.19628870676598,
+                    "NN on Set E": 132.19628870676598,
+                    "BF on Shifted Set": 132.19628870676598,
+                    "NN on Shifted Set": 132.19628870676598
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 139,
+                "k": 83,
+                "z": 5,
+                "p": 97
+            },
+            "Pk Size": 1240.135890253354,
+            "State": "Ok",
+            "Res": {
+                "Stern": 133.95515657250795,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.95515657250795,
+                    "NN on Set E": 133.95515657250795,
+                    "BF on Shifted Set": 133.95515657250795,
+                    "NN on Shifted Set": 133.95515657250795
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.95515657250795,
+                    "NN on Set E": 133.95515657250795,
+                    "BF on Shifted Set": 133.95515657250795,
+                    "NN on Shifted Set": 133.95515657250795
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 140,
+                "k": 84,
+                "z": 5,
+                "p": 97
+            },
+            "Pk Size": 1249.0577311904287,
+            "State": "Ok",
+            "Res": {
+                "Stern": 135.34141068883247,
+                "Bjmm 2LV": {
+                    "BF on Set E": 135.34141068883247,
+                    "NN on Set E": 135.34141068883247,
+                    "BF on Shifted Set": 135.34141068883247,
+                    "NN on Shifted Set": 135.34141068883247
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 135.34141068883247,
+                    "NN on Set E": 135.34141068883247,
+                    "BF on Shifted Set": 135.34141068883247,
+                    "NN on Shifted Set": 135.34141068883247
+                }
+            }
+        }
+    ],
+    "101": [
+        {
+            "Params": {
+                "n": 135,
+                "k": 81,
+                "z": 5,
+                "p": 101
+            },
+            "Pk Size": 1212.3188429812863,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.17306728072055,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.17306728072055,
+                    "NN on Set E": 131.17306728072055,
+                    "BF on Shifted Set": 131.17306728072055,
+                    "NN on Shifted Set": 131.17306728072055
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.17306728072055,
+                    "NN on Set E": 131.17306728072055,
+                    "BF on Shifted Set": 131.17306728072055,
+                    "NN on Shifted Set": 131.17306728072055
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 101
+            },
+            "Pk Size": 1221.2989825589254,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.17306728072055,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.17306728072055,
+                    "NN on Set E": 131.17306728072055,
+                    "BF on Shifted Set": 131.17306728072055,
+                    "NN on Shifted Set": 131.17306728072055
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.17306728072055,
+                    "NN on Set E": 131.17306728072055,
+                    "BF on Shifted Set": 131.17306728072055,
+                    "NN on Shifted Set": 131.17306728072055
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 101
+            },
+            "Pk Size": 1230.2791221365646,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.06444520325206,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.06444520325206,
+                    "NN on Set E": 132.06444520325206,
+                    "BF on Shifted Set": 132.06444520325206,
+                    "NN on Shifted Set": 132.06444520325206
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.06444520325206,
+                    "NN on Set E": 132.06444520325206,
+                    "BF on Shifted Set": 132.06444520325206,
+                    "NN on Shifted Set": 132.06444520325206
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 138,
+                "k": 82,
+                "z": 5,
+                "p": 101
+            },
+            "Pk Size": 1239.2592617142036,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.06444520325206,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.06444520325206,
+                    "NN on Set E": 132.06444520325206,
+                    "BF on Shifted Set": 132.06444520325206,
+                    "NN on Shifted Set": 132.06444520325206
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.06444520325206,
+                    "NN on Set E": 132.06444520325206,
+                    "BF on Shifted Set": 132.06444520325206,
+                    "NN on Shifted Set": 132.06444520325206
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 139,
+                "k": 83,
+                "z": 5,
+                "p": 101
+            },
+            "Pk Size": 1248.2394012918428,
+            "State": "Ok",
+            "Res": {
+                "Stern": 133.750016827749,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.750016827749,
+                    "NN on Set E": 133.750016827749,
+                    "BF on Shifted Set": 133.750016827749,
+                    "NN on Shifted Set": 133.750016827749
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.750016827749,
+                    "NN on Set E": 133.750016827749,
+                    "BF on Shifted Set": 133.750016827749,
+                    "NN on Shifted Set": 133.750016827749
+                }
+            }
+        }
+    ],
+    "103": [
+        {
+            "Params": {
+                "n": 135,
+                "k": 81,
+                "z": 5,
+                "p": 103
+            },
+            "Pk Size": 1216.1378639795287,
+            "State": "Ok",
+            "Res": {
+                "Stern": 130.86744667683453,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.86744667683453,
+                    "NN on Set E": 130.86744667683453,
+                    "BF on Shifted Set": 130.86744667683453,
+                    "NN on Shifted Set": 130.86744667683453
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.86744667683453,
+                    "NN on Set E": 130.86744667683453,
+                    "BF on Shifted Set": 130.86744667683453,
+                    "NN on Shifted Set": 130.86744667683453
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 103
+            },
+            "Pk Size": 1225.1462926015993,
+            "State": "Ok",
+            "Res": {
+                "Stern": 130.86744667683453,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.86744667683453,
+                    "NN on Set E": 130.86744667683453,
+                    "BF on Shifted Set": 130.86744667683453,
+                    "NN on Shifted Set": 130.86744667683453
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.86744667683453,
+                    "NN on Set E": 130.86744667683453,
+                    "BF on Shifted Set": 130.86744667683453,
+                    "NN on Shifted Set": 130.86744667683453
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 103
+            },
+            "Pk Size": 1234.1547212236696,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.02648935433916,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.02648935433916,
+                    "NN on Set E": 132.02648935433916,
+                    "BF on Shifted Set": 132.02648935433916,
+                    "NN on Shifted Set": 132.02648935433916
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.02648935433916,
+                    "NN on Set E": 132.02648935433916,
+                    "BF on Shifted Set": 132.02648935433916,
+                    "NN on Shifted Set": 132.02648935433916
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 138,
+                "k": 82,
+                "z": 5,
+                "p": 103
+            },
+            "Pk Size": 1243.1631498457402,
+            "State": "Ok",
+            "Res": {
+                "Stern": 132.02648935433916,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.02648935433916,
+                    "NN on Set E": 132.02648935433916,
+                    "BF on Shifted Set": 132.02648935433916,
+                    "NN on Shifted Set": 132.02648935433916
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.02648935433916,
+                    "NN on Set E": 132.02648935433916,
+                    "BF on Shifted Set": 132.02648935433916,
+                    "NN on Shifted Set": 132.02648935433916
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 139,
+                "k": 83,
+                "z": 5,
+                "p": 103
+            },
+            "Pk Size": 1252.1715784678108,
+            "State": "Ok",
+            "Res": {
+                "Stern": 133.68809937459034,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.68809937459034,
+                    "NN on Set E": 133.68809937459034,
+                    "BF on Shifted Set": 133.68809937459034,
+                    "NN on Shifted Set": 133.68809937459034
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.68809937459034,
+                    "NN on Set E": 133.68809937459034,
+                    "BF on Shifted Set": 133.68809937459034,
+                    "NN on Shifted Set": 133.68809937459034
+                }
+            }
+        }
+    ],
+    "107": [
+        {
+            "Params": {
+                "n": 128,
+                "k": 76,
+                "z": 7,
+                "p": 107
+            },
+            "Pk Size": 1222.24920428272,
+            "State": "Ok",
+            "Res": {
+                "Stern": 143.28379771515512,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.38466838109153,
+                    "NN on Set E": 130.38466838109153,
+                    "BF on Shifted Set": 130.38466838109153,
+                    "NN on Shifted Set": 130.38466838109153
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.38466838109153,
+                    "NN on Set E": 130.38466838109153,
+                    "BF on Shifted Set": 130.38466838109153,
+                    "NN on Shifted Set": 130.38466838109153
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 131,
+                "k": 78,
+                "z": 7,
+                "p": 107
+            },
+            "Pk Size": 1250.8956700080962,
+            "State": "Ok",
+            "Res": {
+                "Stern": 145.5822754874621,
+                "Bjmm 2LV": {
+                    "BF on Set E": 132.05301417679834,
+                    "NN on Set E": 132.05301417679834,
+                    "BF on Shifted Set": 132.05301417679834,
+                    "NN on Shifted Set": 132.05301417679834
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 132.05301417679834,
+                    "NN on Set E": 132.05301417679834,
+                    "BF on Shifted Set": 132.05301417679834,
+                    "NN on Shifted Set": 132.05301417679834
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 135,
+                "k": 81,
+                "z": 5,
+                "p": 107
+            },
+            "Pk Size": 1223.558335973949,
+            "State": "Ok",
+            "Res": {
+                "Stern": 130.38259578060553,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.38259578060553,
+                    "NN on Set E": 130.38259578060553,
+                    "BF on Shifted Set": 130.38259578060553,
+                    "NN on Shifted Set": 130.38259578060553
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.38259578060553,
+                    "NN on Set E": 130.38259578060553,
+                    "BF on Shifted Set": 130.38259578060553,
+                    "NN on Shifted Set": 130.38259578060553
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 107
+            },
+            "Pk Size": 1232.6217310552374,
+            "State": "Ok",
+            "Res": {
+                "Stern": 130.38259578060553,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.38259578060553,
+                    "NN on Set E": 130.38259578060553,
+                    "BF on Shifted Set": 130.38259578060553,
+                    "NN on Shifted Set": 130.38259578060553
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.38259578060553,
+                    "NN on Set E": 130.38259578060553,
+                    "BF on Shifted Set": 130.38259578060553,
+                    "NN on Shifted Set": 130.38259578060553
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 107
+            },
+            "Pk Size": 1241.685126136526,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.98267348321767,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.98267348321767,
+                    "NN on Set E": 131.98267348321767,
+                    "BF on Shifted Set": 131.98267348321767,
+                    "NN on Shifted Set": 131.98267348321767
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.98267348321767,
+                    "NN on Set E": 131.98267348321767,
+                    "BF on Shifted Set": 131.98267348321767,
+                    "NN on Shifted Set": 131.98267348321767
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 138,
+                "k": 82,
+                "z": 5,
+                "p": 107
+            },
+            "Pk Size": 1250.7485212178144,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.98267348321767,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.98267348321767,
+                    "NN on Set E": 131.98267348321767,
+                    "BF on Shifted Set": 131.98267348321767,
+                    "NN on Shifted Set": 131.98267348321767
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.98267348321767,
+                    "NN on Set E": 131.98267348321767,
+                    "BF on Shifted Set": 131.98267348321767,
+                    "NN on Shifted Set": 131.98267348321767
+                }
+            }
+        }
+    ],
+    "109": [
+        {
+            "Params": {
+                "n": 128,
+                "k": 76,
+                "z": 7,
+                "p": 109
+            },
+            "Pk Size": 1225.66902359482,
+            "State": "Ok",
+            "Res": {
+                "Stern": 144.41215072017653,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.28539260769494,
+                    "NN on Set E": 131.28539260769494,
+                    "BF on Shifted Set": 131.28539260769494,
+                    "NN on Shifted Set": 131.28539260769494
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.28539260769494,
+                    "NN on Set E": 131.28539260769494,
+                    "BF on Shifted Set": 131.28539260769494,
+                    "NN on Shifted Set": 131.28539260769494
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 129,
+                "k": 77,
+                "z": 7,
+                "p": 109
+            },
+            "Pk Size": 1235.2445628416544,
+            "State": "Ok",
+            "Res": {
+                "Stern": 143.7304396991001,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.05601798790065,
+                    "NN on Set E": 130.05601798790065,
+                    "BF on Shifted Set": 130.05601798790065,
+                    "NN on Shifted Set": 130.05601798790065
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.05601798790065,
+                    "NN on Set E": 130.05601798790065,
+                    "BF on Shifted Set": 130.05601798790065,
+                    "NN on Shifted Set": 130.05601798790065
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 135,
+                "k": 81,
+                "z": 5,
+                "p": 109
+            },
+            "Pk Size": 1227.165176654679,
+            "State": "Ok",
+            "Res": {
+                "Stern": 130.2002182718682,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.2002182718682,
+                    "NN on Set E": 130.2002182718682,
+                    "BF on Shifted Set": 130.2002182718682,
+                    "NN on Shifted Set": 130.2002182718682
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.2002182718682,
+                    "NN on Set E": 130.2002182718682,
+                    "BF on Shifted Set": 130.2002182718682,
+                    "NN on Shifted Set": 130.2002182718682
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 136,
+                "k": 81,
+                "z": 5,
+                "p": 109
+            },
+            "Pk Size": 1236.2552890743432,
+            "State": "Ok",
+            "Res": {
+                "Stern": 130.2002182718682,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.2002182718682,
+                    "NN on Set E": 130.2002182718682,
+                    "BF on Shifted Set": 130.2002182718682,
+                    "NN on Shifted Set": 130.2002182718682
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.2002182718682,
+                    "NN on Set E": 130.2002182718682,
+                    "BF on Shifted Set": 130.2002182718682,
+                    "NN on Shifted Set": 130.2002182718682
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 109
+            },
+            "Pk Size": 1245.3454014940075,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.9708820910264,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.9708820910264,
+                    "NN on Set E": 131.9708820910264,
+                    "BF on Shifted Set": 131.9708820910264,
+                    "NN on Shifted Set": 131.9708820910264
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.9708820910264,
+                    "NN on Set E": 131.9708820910264,
+                    "BF on Shifted Set": 131.9708820910264,
+                    "NN on Shifted Set": 131.9708820910264
+                }
+            }
+        }
+    ],
+    "113": [
+        {
+            "Params": {
+                "n": 126,
+                "k": 75,
+                "z": 7,
+                "p": 113
+            },
+            "Pk Size": 1213.069269443572,
+            "State": "Ok",
+            "Res": {
+                "Stern": 144.3553075975812,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.52138332559704,
+                    "NN on Set E": 130.52138332559704,
+                    "BF on Shifted Set": 130.52138332559704,
+                    "NN on Shifted Set": 130.52138332559704
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.52138332559704,
+                    "NN on Set E": 130.52138332559704,
+                    "BF on Shifted Set": 130.52138332559704,
+                    "NN on Shifted Set": 130.52138332559704
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 128,
+                "k": 76,
+                "z": 7,
+                "p": 113
+            },
+            "Pk Size": 1232.3243372125175,
+            "State": "Ok",
+            "Res": {
+                "Stern": 146.706546858635,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.15866194376144,
+                    "NN on Set E": 133.15866194376144,
+                    "BF on Shifted Set": 133.15866194376144,
+                    "NN on Shifted Set": 133.15866194376144
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.15866194376144,
+                    "NN on Set E": 133.15866194376144,
+                    "BF on Shifted Set": 133.15866194376144,
+                    "NN on Shifted Set": 133.15866194376144
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 129,
+                "k": 77,
+                "z": 7,
+                "p": 113
+            },
+            "Pk Size": 1241.9518710969903,
+            "State": "Ok",
+            "Res": {
+                "Stern": 146.2327774179121,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.88230650965895,
+                    "NN on Set E": 131.88230650965895,
+                    "BF on Shifted Set": 131.88230650965895,
+                    "NN on Shifted Set": 131.88230650965895
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.88230650965895,
+                    "NN on Set E": 131.88230650965895,
+                    "BF on Shifted Set": 131.88230650965895,
+                    "NN on Shifted Set": 131.88230650965895
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 130,
+                "k": 78,
+                "z": 7,
+                "p": 113
+            },
+            "Pk Size": 1251.579404981463,
+            "State": "Ok",
+            "Res": {
+                "Stern": 145.42204307084373,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.59009073884252,
+                    "NN on Set E": 130.59009073884252,
+                    "BF on Shifted Set": 130.59009073884252,
+                    "NN on Shifted Set": 130.59009073884252
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.59009073884252,
+                    "NN on Set E": 130.59009073884252,
+                    "BF on Shifted Set": 130.59009073884252,
+                    "NN on Shifted Set": 130.59009073884252
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 137,
+                "k": 82,
+                "z": 5,
+                "p": 113
+            },
+            "Pk Size": 1252.4686668504496,
+            "State": "Ok",
+            "Res": {
+                "Stern": 131.75257904885714,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.75257904885714,
+                    "NN on Set E": 131.75257904885714,
+                    "BF on Shifted Set": 131.75257904885714,
+                    "NN on Shifted Set": 131.75257904885714
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.75257904885714,
+                    "NN on Set E": 131.75257904885714,
+                    "BF on Shifted Set": 131.75257904885714,
+                    "NN on Shifted Set": 131.75257904885714
+                }
+            }
+        }
+    ],
+    "127": [
+        {
+            "Params": {
+                "n": 122,
+                "k": 73,
+                "z": 7,
+                "p": 127
+            },
+            "Pk Size": 1195.116832277232,
+            "State": "Ok",
+            "Res": {
+                "Stern": 144.36916030637815,
+                "Bjmm 2LV": {
+                    "BF on Set E": 130.58766209474365,
+                    "NN on Set E": 130.58766209474365,
+                    "BF on Shifted Set": 130.58766209474365,
+                    "NN on Shifted Set": 130.58766209474365
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 130.58766209474365,
+                    "NN on Set E": 130.58766209474365,
+                    "BF on Shifted Set": 130.58766209474365,
+                    "NN on Shifted Set": 130.58766209474365
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 123,
+                "k": 73,
+                "z": 7,
+                "p": 127
+            },
+            "Pk Size": 1204.9128718860618,
+            "State": "Ok",
+            "Res": {
+                "Stern": 145.31511340231646,
+                "Bjmm 2LV": {
+                    "BF on Set E": 131.53361519068199,
+                    "NN on Set E": 131.53361519068199,
+                    "BF on Shifted Set": 131.53361519068199,
+                    "NN on Shifted Set": 131.53361519068199
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 131.53361519068199,
+                    "NN on Set E": 131.53361519068199,
+                    "BF on Shifted Set": 131.53361519068199,
+                    "NN on Shifted Set": 131.53361519068199
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 124,
+                "k": 74,
+                "z": 7,
+                "p": 127
+            },
+            "Pk Size": 1214.7089114948917,
+            "State": "Ok",
+            "Res": {
+                "Stern": 147.0171820343118,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.04491890975004,
+                    "NN on Set E": 133.04491890975004,
+                    "BF on Shifted Set": 133.04491890975004,
+                    "NN on Shifted Set": 133.04491890975004
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.04491890975004,
+                    "NN on Set E": 133.04491890975004,
+                    "BF on Shifted Set": 133.04491890975004,
+                    "NN on Shifted Set": 133.04491890975004
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 125,
+                "k": 75,
+                "z": 7,
+                "p": 127
+            },
+            "Pk Size": 1224.5049511037214,
+            "State": "Ok",
+            "Res": {
+                "Stern": 146.9470939065998,
+                "Bjmm 2LV": {
+                    "BF on Set E": 133.39768842587173,
+                    "NN on Set E": 133.39768842587173,
+                    "BF on Shifted Set": 133.39768842587173,
+                    "NN on Shifted Set": 133.39768842587173
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 133.39768842587173,
+                    "NN on Set E": 133.39768842587173,
+                    "BF on Shifted Set": 133.39768842587173,
+                    "NN on Shifted Set": 133.39768842587173
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 126,
+                "k": 75,
+                "z": 7,
+                "p": 127
+            },
+            "Pk Size": 1234.300990712551,
+            "State": "Ok",
+            "Res": {
+                "Stern": 148.6658582452812,
+                "Bjmm 2LV": {
+                    "BF on Set E": 135.11645276455315,
+                    "NN on Set E": 135.11645276455315,
+                    "BF on Shifted Set": 135.11645276455315,
+                    "NN on Shifted Set": 135.11645276455315
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 135.11645276455315,
+                    "NN on Set E": 135.11645276455315,
+                    "BF on Shifted Set": 135.11645276455315,
+                    "NN on Shifted Set": 135.11645276455315
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 127,
+                "k": 76,
+                "z": 7,
+                "p": 127
+            },
+            "Pk Size": 1244.097030321381,
+            "State": "Ok",
+            "Res": {
+                "Stern": 149.9984913918232,
+                "Bjmm 2LV": {
+                    "BF on Set E": 136.08823517814895,
+                    "NN on Set E": 136.08823517814895,
+                    "BF on Shifted Set": 136.08823517814895,
+                    "NN on Shifted Set": 136.08823517814895
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 136.08823517814895,
+                    "NN on Set E": 136.08823517814895,
+                    "BF on Shifted Set": 136.08823517814895,
+                    "NN on Shifted Set": 136.08823517814895
+                }
+            }
+        },
+        {
+            "Params": {
+                "n": 128,
+                "k": 76,
+                "z": 7,
+                "p": 127
+            },
+            "Pk Size": 1253.8930699302107,
+            "State": "Ok",
+            "Res": {
+                "Stern": 150.97171157900942,
+                "Bjmm 2LV": {
+                    "BF on Set E": 137.06145536533518,
+                    "NN on Set E": 137.06145536533518,
+                    "BF on Shifted Set": 137.06145536533518,
+                    "NN on Shifted Set": 137.06145536533518
+                },
+                "Bjmm 3LV": {
+                    "BF on Set E": 137.06145536533518,
+                    "NN on Set E": 137.06145536533518,
+                    "BF on Shifted Set": 137.06145536533518,
+                    "NN on Shifted Set": 137.06145536533518
+                }
+            }
+        }
+    ]
+}

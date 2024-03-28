@@ -1,12 +1,15 @@
 from math import *
 
 def nn_cost(k, l, w1, w2, f, x, y, ovlap, l1, l2):
-    res = {}    
-    #d describes how many filters contains a binary solution (vx, vy) such that wth(vx+vy)=k+l-ovlap
-    u = max(0, x+y-f)  #u is the number of common overlaps with the filters 
-    r1 = max(0, (k+l)-(w1+w2)) #number of entries where both vectors have no entries
-    r2 = max(0, f-(x+y)) ##number of entries where filters have no overlaps with vectors
-    d = comb(ovlap, u)*comb(w1-ovlap, x-u)*comb(w2-ovlap, y-u)*comb(r1,r2)
+    res = {}   
+    try: 
+        #d describes how many filters contains a binary solution (vx, vy) such that wth(vx+vy)=k+l-ovlap
+        u = max(0, x+y-f)  #u is the number of common overlaps with the filters 
+        r1 = max(0, (k+l)-(w1+w2)) #number of entries where both vectors have no entries
+        r2 = max(0, f-(x+y)) ##number of entries where filters have no overlaps with vectors
+        d = comb(ovlap, u)*comb(w1-ovlap, x-u)*comb(w2-ovlap, y-u)*comb(r1,r2)
+    except:
+        d = 0
     if d == 0:
         p1 = 2
         p2 = 2
@@ -25,7 +28,6 @@ def nn_cost(k, l, w1, w2, f, x, y, ovlap, l1, l2):
     res['Parameters'] = {'x': str(x), 'y': str(y), 'f': str(f)}
     res['NN Details'] = {"p1": log(p1,2), "p2": log(p2,2), "d":log(d,2), "f": log(nf,2)}
     return bucketing_cost+collision_search_cost, res
-    
     
 def find_best_nn(k, l, e, w1, w2, l1, l2, best_cost):
         

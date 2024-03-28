@@ -39,7 +39,7 @@
   "fast":false,
   "verb":false,
   "num_workers":8,
-  "list_attacks":["Stern", "Bjmm 2LV", "Bjmm 3LV"],
+  "list_attacks":["Stern", "Bjmm 2LV"],
   "new_execution":1,
   "recovery_num":0
 }

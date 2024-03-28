@@ -224,22 +224,22 @@ def bjmm_3LV_opt_size_pk(p, n, k, z, current_best, sec_level, verb):
     alpha_d, zD = create_d_set(p,z)
     alpha_e = 1 
     
-    current_best_S_BF, data_S_bf, res_S_bf = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d_bf, "bf", current_best, sec_level, verb)
+    current_best_S_BF, data_S_bf, res_S_bf = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d, "bf", current_best, sec_level, verb)
     data["BF on Shifted Set"] = current_best_S_BF
 
     if res_S_bf:
         
-        current_best_S_NN, data_S_nn, res_S_nn = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d_nn, "nn", current_best_S_BF, sec_level, verb)
+        current_best_S_NN, data_S_nn, res_S_nn = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d, "nn", current_best_S_BF, sec_level, verb)
         data["NN on Shifted Set"] = current_best_S_NN
         
         if res_S_nn:
             
-            current_best_E_NN, data_E_nn, res_E_nn = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d_nn, "nn", current_best_S_NN, sec_level, verb)
+            current_best_E_NN, data_E_nn, res_E_nn = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d, "nn", current_best_S_NN, sec_level, verb)
             data["NN on Set E"] = current_best_E_NN
             
             if res_E_nn:
                 
-                current_best_E_BF, data_E_bf, res_E_bf = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d_bf, "bf", current_best_E_NN, sec_level, verb)
+                current_best_E_BF, data_E_bf, res_E_bf = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d, "bf", current_best_E_NN, sec_level, verb)
                 data["BF on Set E"] = current_best_E_BF
                 
                 if res_E_bf:
@@ -254,10 +254,10 @@ def bjmm_3LV_fast(p, n, k, z):
     
     data = {}
     current_best = n+40
-    current_best_E_BF, data_E_bf, res_E_bf = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d_bf, "bf", current_best)
-    current_best_E_NN, data_E_nn, res_E_nn = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d_nn, "nn", current_best)
-    current_best_S_BF, data_S_bf, res_S_bf = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d_bf, "bf", current_best)
-    current_best_S_NN, data_S_nn, res_S_nn = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d_nn, "nn", current_best)
+    current_best_E_BF, data_E_bf, res_E_bf = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d, "bf", current_best)
+    current_best_E_NN, data_E_nn, res_E_nn = bjmm_3lv_E(p, n, k, z, zD, alpha_e, alpha_d, "nn", current_best)
+    current_best_S_BF, data_S_bf, res_S_bf = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d, "bf", current_best)
+    current_best_S_NN, data_S_nn, res_S_nn = bjmm_3lv_shifted(p, n, k, z-1, zD, alpha_e, alpha_d, "nn", current_best)
 
     data["BF on Set E"] = data_E_bf
     data["NN on Set E"] = data_E_nn

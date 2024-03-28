@@ -61,13 +61,11 @@ def get_p_values(min_p, max_p):
     return list_p
 
 def get_z_values(p):
-    return [7]
-    """
     list_z = []
     for z in range(3, p):
         if (p-1)%z == 0:
             list_z.append(z)
-    return list_z"""
+    return list_z
     
 def create_d_set(p,z):
     list_D = []
@@ -121,10 +119,10 @@ def init_params():
         for z in dim_set:
             for n in range(min_n, max_n+1):
                 for rate in rates:
-                    elem = {}
                     k=int(n*(rate))
                     size =  n*log(z*p, 2)
                     if size<=target_size:#keep only the combo with a size lower than 128*log(7*128, 2)
+                        elem = {}
                         elem["Params"] = {"n":n, "k":k, "z":z, "p":p}
                         elem["Size"] = size
                         elem["Failed"] = False
@@ -140,12 +138,15 @@ def init_params():
     
     return data, file_name
 
-def get_params(iter, flag):
+def recover_params(iter, new_exec, last_iter):
     #Take both the files of the last and the new execution
-    old_iter = iter-int(flag) #if it is the first step of a previous execution the 2 files are the same
+    old_iter = iter-int(new_exec) #if it is the first step of a previous execution the 2 files are the same
     data={}
     old_file = name +"_"+str(old_iter)+".json"
-    new_file = name +"_"+str(iter)+".json"
+    if last_iter:
+        new_file = "final_results.json"
+    else:
+        new_file = name +"_"+str(iter)+".json"
     try:
         data = get_data(old_file) 
         for p in data.keys():
@@ -156,6 +157,8 @@ def get_params(iter, flag):
                 if iter == 3:
                     values = sorted(values, key=lambda x: x["Size"]) #if it is the last execution the results are sorted according the size
                 data[p]["Evaluations"] = values
+            else:
+                del data[p]
         update_data(new_file, data) 
     except Exception as e:
         print("Problem in data recovering", e)
@@ -185,8 +188,7 @@ def find_opt_bjmm2LV(elem):
    
     safe_s, res = bjmm_2LV_opt_size_pk(p, n, k, z, ranges, get_min_cost(elem), security_level, verb) 
  
-    if safe_s:
-        elem["Failed"] = True
+    elem["Failed"] = not(safe_s)
     
     elem["Res"]["Bjmm 2LV"] = res
     
@@ -201,15 +203,13 @@ def find_opt_bjmm3LV(elem):
    
     safe_s, res = bjmm_3LV_opt_size_pk(p, n, k, z, get_min_cost(elem), security_level, verb)
            
-    if safe_s:
-        elem["Failed"] = True
+    elem["Failed"] = not(safe_s)
     
     elem["Res"]["Bjmm 3LV"] = res
     
     return elem
 
 ################################################################################## OPTIMIZATION FUNCTIONS ################################################################################
-
 def optimize():
     #try:
     new_execution_ = new_execution
@@ -223,7 +223,7 @@ def optimize():
         
         #if it is not the first attack or a previous execution is being taken up 
         else:
-            list_params, file_name = get_params(iter, new_execution_)  
+            list_params, file_name = recover_params(iter, new_execution_, False)  
 
         counter = 0
         num_of_p = len(list_params.keys()) #values of p
@@ -237,7 +237,7 @@ def optimize():
             
             if new_execution_ or list_params[p]["State"] == "To Do":
                 
-                print(list_attacks[iter], "p:", p, "round:", counter, "on", num_of_p) 
+                print("Start", list_attacks[iter], "p:", p, "round:", counter, "on", num_of_p) 
                 list_elem = list_params[p]["Evaluations"]
                 list_res = []
                 
@@ -249,12 +249,16 @@ def optimize():
                         except Exception as e:
                             print(e, elem)
                             
+                print("End", list_attacks[iter], "p:", p, "round:", counter, "on", num_of_p) 
+                
                 counter += 1
                 list_params[p]["State"] = "Finished"
                 list_params[p]["Evaluations"] = list_res
                 update_data(file_name, list_params)  
         if not(new_execution_):
             new_execution_ = True
+    recover_params(len(list_attacks)+1, True, True) 
+    
     """        
     except Exception as e:
         print("EH LU SACC", e)"""

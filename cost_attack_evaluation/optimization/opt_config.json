@@ -14,11 +14,11 @@
   },
   "paramsCategory3": {
     "security_level": 192,
-    "target_size": "187*log(127*7,2)"
+    "target_size": [187, 127, 2]
   },
   "paramsCategory5": {
     "security_level": 251,
-    "target_size": "251*log(127*7,2)"
+    "target_size": [251, 127, 2]
   },
   "files": {
     "name": "results",
@@ -36,6 +36,7 @@
     "min_delta_ES": 0,
     "max_delta_ES": 0
   },
+  "fast":false,
   "verb":false,
   "num_workers":8,
   "list_attacks":["Stern", "Bjmm 2LV", "Bjmm 3LV"],

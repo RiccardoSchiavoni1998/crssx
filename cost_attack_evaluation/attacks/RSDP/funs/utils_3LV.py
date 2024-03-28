@@ -4,6 +4,21 @@ def bits_to_bytes(bits):
     bytes = bits / 8
     return bytes
 
+def create_d_set(p,z):
+    list_D = []
+    g = 2
+    list_E = []
+    for i in range(z):
+        list_E.append(g**i)
+    for a in list_E:
+        count = 0
+        for b in list_E:
+            res = (a-b)%p
+            if res!=0 and not(res in list_E):
+                list_D.append(res)
+                count += 1
+                
+    return count, len(list_D)
 #FUNdim_set
 
 def compute_lv_params(ui, di, v=0, δ=0):
@@ -22,7 +37,11 @@ def compute_lists_len(len_v, p, z, zD, li=0, u=0, d=0):
     return (comb(len_v, (u+d))*comb((u+d),u)*(z**u)*(zD**d))/(p**li)
 
 def compute_time_cost(len_list, z, zD, p, u, d, li=0):
-    try: 
-        return len_list*((li*log(p,2))+(u*log(z, 2))+(d*log(zD,2)))
-    except:
-        print("EEE", len_list, z, zD, p, u, d, li)
+    return len_list*((li*log(p,2))+(u*log(z, 2))+(d*log(zD,2)))
+
+"""
+def compute_lv_0(len_v, p, z, zD, ubase, dbase, li=0, u=0, d=0):
+    len_list_base = (comb(len_v, (u+d))*comb((u+d),u)*(z**u)*(zD**d))/(p**li)
+    partial_time_cost_base = len_list_base*((li*log(p,2))+(u*log(z, 2))+(d*log(zD,2)))
+"""
+        

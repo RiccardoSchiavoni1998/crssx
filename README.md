@@ -28,26 +28,38 @@ min_p = {...}
 
 ...
 p_i : {
+
      "State": "To Do" \ "Finished",
+     
      "Evaluations": [
+     
          ...
+         
          {
+         
              "Params": {
                  "n": n_value,
                  "k": k_value,
                  "z": z_value,
                  "p": p_value
-             },
+             }, 
+             
              "Size": n*log(p*z, 2),
+             
              "Failed": false / true,
+             
              "Res": {
                         "Stern": ...
                         "Bjmm 2LV": ...
                         "Bjmm 3LV": ...
+                   
                     }
          },
+         
          ...
+         
    ]
+   
   }
   
 ...

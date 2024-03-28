@@ -18,7 +18,27 @@ def create_d_set(p,z):
 
 #len_vb_1, len_vb_2, u1, u2, u1_1, u1_2, u2_1, u2_2, d1_1, d1_2, d2_1, d2_2
 def compute_params(length, u0, epsilon=0, delta=0):
+def create_d_set(p,z):
+    list_D = []
+    g = 2
+    list_E = []
+    for i in range(z):
+        list_E.append(g**i)
+    for a in list_E:
+        count = 0
+        for b in list_E:
+            res = (a-b)%p
+            if res!=0 and not(res in list_E):
+                list_D.append(res)
+                count += 1
+                
+    return count, len(list_D)
+
+#len_vb_1, len_vb_2, u1, u2, u1_1, u1_2, u2_1, u2_2, d1_1, d1_2, d2_1, d2_2
+def compute_params(length, u0, epsilon=0, delta=0):
     
+    u1 = floor(u0/2)+epsilon
+    u2 = ceil(u0/2)+epsilon
     u1 = floor(u0/2)+epsilon
     u2 = ceil(u0/2)+epsilon
     
@@ -37,6 +57,11 @@ def compute_params(length, u0, epsilon=0, delta=0):
 
     return len_vb_1, len_vb_2, u1, u2, u1_1, u1_2, u2_1, u2_2, d1_1, d1_2, d2_1, d2_2
    
+def compute_n_reps(u0, u1, e=0, d=0, alpha_d=0):
+    if e!=0 and d!=0:
+        return comb(u0, u1)*comb(u1, 2*e)*((comb((u1-(2*e)), d))**2)*(alpha_d**(2*d))
+    if e!=0 and d==0:
+        return comb(u0, u1)*comb(u1, 2*e)
 def compute_n_reps(u0, u1, e=0, d=0, alpha_d=0):
     if e!=0 and d!=0:
         return comb(u0, u1)*comb(u1, 2*e)*((comb((u1-(2*e)), d))**2)*(alpha_d**(2*d))
@@ -70,7 +95,38 @@ def compute_partial_costs(p, l, t, len_vb_1, len_vb_2, u1, u2, u1_1, u1_2, u2_1,
     
     memory_base_a = min(lb_1*(u1_1*log(dim_set,2)+d1_1*log(dim_set_D,2)), lb_2*(u1_2*log(dim_set,2)+d1_2*log(dim_set_D,2)))
     memory_base_b = min(lb_3*(u2_1*log(dim_set,2)+d2_1*log(dim_set_D,2)), lb_4*(u2_2*log(dim_set,2)+d2_2*log(dim_set_D,2)))
+    memory_base_a = min(lb_1*(u1_1*log(dim_set,2)+d1_1*log(dim_set_D,2)), lb_2*(u1_2*log(dim_set,2)+d1_2*log(dim_set_D,2)))
+    memory_base_b = min(lb_3*(u2_1*log(dim_set,2)+d2_1*log(dim_set_D,2)), lb_4*(u2_2*log(dim_set,2)+d2_2*log(dim_set_D,2)))
     memory_base = max(memory_base_a, memory_base_b)
+    
+
+    return max_list_size, list_a, list_b, c_base, memory_base, c_lv1 
+
+#return detail
+def save_details(rep, num_r0, prob, max_list_size, list_a, list_b, c_base, c_lv1, c_0):
+    
+    details = {}
+    
+    details['Number of Representation'] = {'q**t':log(rep,2), 'q**(l-t)': log(num_r0, 2)}
+    
+    details['Probability'] = prob
+    
+    details['List Size'] = {'Base List': log(max_list_size,2), 'Lv1 Lists': log(max(list_a, list_b),2)}
+    
+    details['Time Cost'] = {'Base Time Cost':log(c_base, 2), 'Level 1 Time Cost':log(c_lv1, 2), 'Level 0 Time Cost': log(c_0, 2)}
+    
+    return details
+
+def save_params(set_, p, n, k, z, l, w0, epsilon, delta):
+        
+    if set_=="E": return {"p":p, "n":n, "k":k, "z":z, "l":l, "epsilon":epsilon}
+    
+    if set_=="shifted_E": return {"p":p, "n":n, "k":k, "z":z, "l":l, "w0":w0}
+    
+    if set_=="EuD": return {"p":p, "n":n, "k":k, "z":z, "l":l, "epsilon":epsilon, "delta":delta}
+    
+    if set_=="shifted_EuD": return {"p":p, "n":n, "k":k, "z":z, "l":l, "delta":delta}
+    
     
 
     return max_list_size, list_a, list_b, c_base, memory_base, c_lv1 

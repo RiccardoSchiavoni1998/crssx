@@ -25,6 +25,7 @@
 - Each result of sub evaluations is saved in json files in the directory ost_attack_evaluation\optimization\results_opt\ , with the following structure:
 
 min_p = {...}
+
 ...
 p_i : {
      "State": "To Do" \ "Finished",
@@ -48,6 +49,7 @@ p_i : {
          ...
    ]
   }
+  
 ...
 max_p = {...}
 

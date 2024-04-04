@@ -38,7 +38,7 @@ def stern_opt_size_pk(p, n, k, z, security_level):
                 M_opt = M
                 P_opt =  l
                 if C < security_level:
-                    return False, 0
+                    return False, C
     return True, C_opt
 
 

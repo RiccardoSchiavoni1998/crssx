@@ -1,4 +1,6 @@
 ################################################################# SET DEPENDENCES AND GLOBAL PARAMS #################################################################
+from datetime import datetime
+
 
 import os
 import json
@@ -26,7 +28,7 @@ def get_global_vars():
     security_level = global_params['paramsCategory'+str(category)]['security_level']
     [n_,p_,z_] = global_params['paramsCategory'+str(category)]['target_size']
     target_size = n_*log(p_*z_,2)
-    directory_name= global_params["files"]["dir"]
+    directory_name = global_params["files"]["dir"]
     name = global_params["files"]["name"]
     verb = global_params["verb"]
     fast = global_params["fast"]
@@ -66,7 +68,7 @@ def get_z_values(p):
         if (p-1)%z == 0:
             list_z.append(z)
     return list_z
-    
+
 def create_d_set(p,z):
     list_D = []
     g = 2
@@ -91,9 +93,7 @@ def get_data(file_name):
         
 def update_data(file_name, data):
     file_name = directory_name+"/"+str(file_name)
-    
     complete_path = os.path.join(path, file_name)
-    
     with open(complete_path, "w") as file:
         json.dump(data, file, indent=4)
 
@@ -111,57 +111,91 @@ def get_min_cost(item):
 
 def init_params():
     
-    data = {}    
-    list_p = get_p_values(min_p, max_p)
-    for p in list_p:
-        list_elem=[]
+    list_p = {}    
+    list_primes = get_p_values(min_p, max_p)
+        
+    for p in list_primes:
         dim_set = get_z_values(p)
+        list_sets = {}
+        
         for z in dim_set:
-            for n in range(min_n, max_n+1):
-                for rate in rates:
+                    
+            list_rates = {}
+            for rate in rates:
+                
+                list_elem=[]
+                for n in range(min_n, max_n+1):
+                
                     k=int(n*(rate))
-                    size =  n*log(z*p, 2)
+                    size = n*log(z*p, 2)
+                    
                     if size<=target_size:#keep only the combo with a size lower than 128*log(7*128, 2)
                         elem = {}
                         elem["Params"] = {"n":n, "k":k, "z":z, "p":p}
                         elem["Size"] = size
                         elem["Failed"] = False
                         elem["Res"] = {}
-                        
                         list_elem.append(elem)
-                        
-        data[p]={"State":"To Do", "Evaluations":list_elem}
+                
+                
+                
+                list_rates[rate]={"State":{}, "Evaluations":list_elem} 
+                
+                for attack in list_attacks:
+                    list_rates[rate]["State"][str(attack)] = False         
+                
+            list_sets[z]={"State":{}, "List Rates":list_rates}     
+            for attack in list_attacks:
+                list_sets[z]["State"][str(attack)] = False       
         
+        list_p[p]={"State":{}, "List Sets":list_sets}
+        for attack in list_attacks:
+            list_p[p]["State"][str(attack)] = False   
     file_name = name+"_0.json"
     
-    update_data(file_name, data)
+    update_data(file_name, list_p)
     
-    return data, file_name
+    return list_p, file_name
 
 def recover_params(iter, new_exec, last_iter):
+    
     #Take both the files of the last and the new execution
     old_iter = iter-int(new_exec) #if it is the first step of a previous execution the 2 files are the same
     data={}
+    final_list = []
     old_file = name +"_"+str(old_iter)+".json"
     if last_iter:
         new_file = "final_results.json"
     else:
-        new_file = name +"_"+str(iter)+".json"
-    try:
-        data = get_data(old_file) 
-        for p in data.keys():
-            values = data[p]["Evaluations"]
-            values = list(filter(lambda item: not(item["Failed"]), values)) #Discaring the failed executions
-            values = list(filter(lambda item: get_min_cost(item) < security_level, values)) #Discaring the executions that gives a cost lower than the security level
-            if len(values)>0:
-                if iter == 3:
-                    values = sorted(values, key=lambda x: x["Size"]) #if it is the last execution the results are sorted according the size
-                data[p]["Evaluations"] = values
-            else:
-                del data[p]
-        update_data(new_file, data) 
-    except Exception as e:
-        print("Problem in data recovering", e)
+        try:
+            new_file = name +"_"+str(iter)+".json"
+            try:
+                data = get_data(old_file) 
+            except:
+                data = get_data('backup.json')
+            #Take all successful executions
+            for p in data.keys():
+                    
+                for z in data[p]["List Sets"].keys():
+                    
+                    for r in data[p]["List Sets"][z]["List Rates"].keys():
+                        
+                        #Discard unsuccesful executions
+                        values = data[p]["List Sets"][z]["List Rates"][r]["Evaluations"]
+                        values = list(filter(lambda item: not(item["Failed"]), values)) #Discaring the failed executions
+                        values = list(filter(lambda item: get_min_cost(item) < security_level, values)) #Discaring the executions that gives a cost lower than the security level
+                
+                        if len(values)>0:
+                            if last_iter:
+                                #if it's the last iteration, sort combinations by target size
+                                values = sorted(values, key=lambda x: x["Size"]) 
+                                final_list.extend(values)
+                            data[p]["List Sets"][z]["List Rates"][r]["Evaluations"] = values
+            if last_iter:
+                data = final_list            
+            update_data(new_file, data) 
+        except Exception as e:
+            print("Problema in data recovering", e)
     return data, new_file
 
 def find_opt_stern(elem):
@@ -173,11 +207,13 @@ def find_opt_stern(elem):
    
     safe_s, res = stern_opt_size_pk(p, n, k, z, security_level)
         
-    elem["Failed"] = not(safe_s)
+    """elem["Failed"] = not(safe_s)
     
     elem["Res"]["Stern"] = res
     
-    return elem
+    return elem"""
+    
+    return safe_s, res
 
 def find_opt_bjmm2LV(elem):
     
@@ -188,11 +224,13 @@ def find_opt_bjmm2LV(elem):
    
     safe_s, res = bjmm_2LV_opt_size_pk(p, n, k, z, ranges, get_min_cost(elem), security_level, verb) 
  
-    elem["Failed"] = not(safe_s)
+    """elem["Failed"] = not(safe_s)
     
     elem["Res"]["Bjmm 2LV"] = res
     
-    return elem
+    return elem"""
+ 
+    return safe_s, res
 
 def find_opt_bjmm3LV(elem):
     
@@ -203,64 +241,110 @@ def find_opt_bjmm3LV(elem):
    
     safe_s, res = bjmm_3LV_opt_size_pk(p, n, k, z, get_min_cost(elem), security_level, verb)
            
-    elem["Failed"] = not(safe_s)
+    """elem["Failed"] = not(safe_s)
     
     elem["Res"]["Bjmm 3LV"] = res
     
-    return elem
+    return elem"""
+    
+    return safe_s, res
 
 ################################################################################## OPTIMIZATION FUNCTIONS ################################################################################
 def optimize():
-    #try:
+    
     new_execution_ = new_execution
     for iter in range(recovery_num, len(list_attacks)):
+        timestamp = datetime.now()
         list_params = [] 
         file_name = ""
         
         #if start from the first attack or if is a new execution 
         if iter == 0 and new_execution_:
             list_params, file_name = init_params() #take all the combination of p,n,k,z
-        
+            timestamp = datetime.now()
+       
         #if it is not the first attack or a previous execution is being taken up 
         else:
             list_params, file_name = recover_params(iter, new_execution_, False)  
-
-        counter = 0
-        num_of_p = len(list_params.keys()) #values of p
+            timestamp = datetime.now()
         
         #SET CURRENT ATTACK
         if list_attacks[iter]=="Stern": find_opt_values = find_opt_stern
         if list_attacks[iter]=="Bjmm 2LV": find_opt_values = find_opt_bjmm2LV
         if list_attacks[iter]=="Bjmm 3LV": find_opt_values = find_opt_bjmm3LV
-            
+  
+        
+        counter_p = 0
+        num_of_p = len(list_params.keys()) #values of p
+        
+        #Throught all the p
+        
         for p in list_params.keys():
+            try:
+                update_data('backup.json', list_params)  
+            except:
+                print("No Backup")
+            list_params_p = list_params[p]
             
-            if new_execution_ or list_params[p]["State"] == "To Do":
+            #Check if the current attack hasn't been executed for that p
+            if not(list_params_p["State"][list_attacks[iter]]):
                 
-                print("Start", list_attacks[iter], "p:", p, "round:", counter, "on", num_of_p) 
-                list_elem = list_params[p]["Evaluations"]
-                list_res = []
+                counter_z = 0
+                num_of_z = len(list_params_p["List Sets"].keys()) #values of z
                 
-                with concurrent.futures.ProcessPoolExecutor(max_workers=num_workers) as executor:
+                #Throught all the z    
+                for z in list_params_p["List Sets"].keys():
+
+                    #Check if the current attack hasn't been executed for that z
+                    if not(list_params_p["List Sets"][z]["State"][list_attacks[iter]]):
+                        
+                        counter_r = 0
+                        num_of_r = len(list_params_p["List Sets"][z]["List Rates"].keys()) #values of rate
                     
-                    for elem, res in zip(list_elem, executor.map(find_opt_values, list_elem)):
-                        try:
-                            list_res.append(res)
-                        except Exception as e:
-                            print(e, elem)
-                            
-                print("End", list_attacks[iter], "p:", p, "round:", counter, "on", num_of_p) 
+                        #Throught all the z    
+                        for r in list_params_p["List Sets"][z]["List Rates"].keys():
+
+                            #Check if the current attack hasn't been executed for that z
+                            if not(list_params_p["List Sets"][z]["List Rates"][r]["State"][list_attacks[iter]]):
+                                
+                                print("Start", list_attacks[iter], "p:", p, "round:", counter_p, "on", num_of_p, "z:", z, "round", counter_z, "on", num_of_z, "r:", r, "round", counter_r, "on", num_of_r ) 
+
+                                list_elem = list_params_p["List Sets"][z]["List Rates"][r]["Evaluations"]
+                                
+                                with concurrent.futures.ProcessPoolExecutor(max_workers=num_workers) as executor:
+
+                                    for elem, res in zip(list_elem, executor.map(find_opt_values, list_elem)):
+                                        try:
+                                            #list_res.append(res)
+                                            safe_s, result = res 
+                                            elem["Failed"] = not(safe_s)
+                                            elem["Res"][list_attacks[iter]] = result
+                                            if safe_s and list_attacks[iter] != "Stern":
+                                                executor.shutdown(wait=False) 
+                                                break
+                                        except Exception as e:
+                                            print(e, elem)
+
+                                print("End", list_attacks[iter], "p:", p, "round:", counter_p, "on", num_of_p, "z:", z, "round", counter_z, "on", num_of_z, "r:", r, "round", counter_r, "on", num_of_r ) 
+
+                                list_params_p["List Sets"][z]["List Rates"][r]["State"][list_attacks[iter]] = True
+                                
+                                list_params_p["List Sets"][z]["List Rates"][r]["Evaluations"] = list_elem 
+                            counter_r = counter_r + 1
+                        
+                        list_params_p["List Sets"][z]["State"][list_attacks[iter]] = True
+                           
+                    counter_z = counter_z + 1
                 
-                counter += 1
-                list_params[p]["State"] = "Finished"
-                list_params[p]["Evaluations"] = list_res
-                update_data(file_name, list_params)  
+                list_params_p["State"][list_attacks[iter]] = True
+                list_params[p] = list_params_p
+                try:
+                    update_data(file_name, list_params)  
+                except:
+                    print("No Update")
+                counter_p = counter_p + 1 
+        
         if not(new_execution_):
             new_execution_ = True
-    recover_params(len(list_attacks)+1, True, True) 
     
-    """        
-    except Exception as e:
-        print("EH LU SACC", e)"""
-    
-    
+    recover_params(len(list_attacks)+1, True, True)         

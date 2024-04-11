@@ -38,6 +38,8 @@
     },
     "fast":false,
     "verb":false,
+    "treshold":0,
+    "parallel_execution":true,
     "num_workers":8,
     "list_attacks":["Stern", "Bjmm 2LV", "Bjmm 3LV"],
     "new_execution":1,

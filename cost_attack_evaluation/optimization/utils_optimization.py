@@ -237,7 +237,7 @@ def udpate_size(list_elem, best_size, pre):
         list_elem
     )
     if best_size!=best_size_:
-        print("OLD BEST SIZE:", best_size,"\n NEW BEST SIZE", best_size_)
+        print("Best size updating", "\nOld Best Size:", best_size,"\nNew best size:", best_size_)
     return list(list_elem), best_size_
 
 def find_opt_stern(elem):
@@ -253,13 +253,13 @@ def find_opt_stern(elem):
     return safe_s, res
 
 def find_opt_bjmm2LV(elem):
-    
     n = elem["Params"]["n"]
     z = elem["Params"]["z"]
     k = elem["Params"]["k"]
     p = elem["Params"]["p"]
-   
+    print("Start execution on", n)
     safe_s, res = bjmm_2LV_opt_size_pk(p, n, k, z, ranges, get_min_attack_cost(elem), security_level, verb) 
+    print("Execution on", n, "is over")
  
     return safe_s, res
 
@@ -342,21 +342,25 @@ def optimize():
                                         
                                         if len(list_elem)>0:  
                                             if parallel_execution:  
-                                                with concurrent.futures.ProcessPoolExecutor(max_workers=num_workers) as executor:
-                                                    
-                                                    for elem, res in zip(list_elem, executor.map(find_opt_values, list_elem)):
+                                                try:
+                                                    with concurrent.futures.ProcessPoolExecutor(max_workers=num_workers) as executor:
                                                         
-                                                        #list_res.append(res)
-                                                        safe_s, result = res
-                                                        
-                                                        elem["Failed"] = not(safe_s)
-                                                        elem["Res"][list_attacks[iter]] = result
-                                                        
-                                                        if list_attacks[iter] != "Stern":
-                                                            elem["Evaluated"] = True
-                                                        if safe_s:
-                                                            executor.shutdown(wait=False) 
-                                                            break
+                                                        for elem, res in zip(list_elem, executor.map(find_opt_values, list_elem)):
+                                                            
+                                                            #list_res.append(res)
+                                                            safe_s, result = res
+                                                            
+                                                            elem["Failed"] = not(safe_s)
+                                                            elem["Res"][list_attacks[iter]] = result
+                                                            
+                                                            if list_attacks[iter] != "Stern":
+                                                                elem["Evaluated"] = True
+                                                            if safe_s:
+                                                                print("Found safe params for n = ", elem["params"])
+                                                                executor.shutdown(wait=False) 
+                                                                break
+                                                except Exception as e:
+                                                    print(e)
                                             else:
                                                 stop_condition = False
                                                 for elem in list_elem:
@@ -371,7 +375,6 @@ def optimize():
                                                         
                                                         if list_attacks[iter] != "Stern":
                                                             elem["Evaluated"] = True
-                                                            print("STOP")
                                                         stop_condition = safe_s
                                                     
                                             #If Bjmm the algorithm keeps only the combinations such that size < best_size

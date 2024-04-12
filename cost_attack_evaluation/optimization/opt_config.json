@@ -40,7 +40,7 @@
   "verb":false,
   "treshold":0,
   "parallel_execution":true,
-  "num_workers":4,
+  "num_workers":6,
   "list_attacks":["Stern", "Bjmm 2LV"],
   "new_execution":0,
   "recovery_num":0

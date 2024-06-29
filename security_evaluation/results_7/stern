@@ -1,0 +1,290 @@
+[
+    {
+        "Params": {
+            "l": 4
+        },
+        "Overall cost": 202.47310095028482
+    },
+    {
+        "Params": {
+            "l": 5
+        },
+        "Overall cost": 198.29177118557027
+    },
+    {
+        "Params": {
+            "l": 6
+        },
+        "Overall cost": 194.14447319445108
+    },
+    {
+        "Params": {
+            "l": 7
+        },
+        "Overall cost": 189.96314342973653
+    },
+    {
+        "Params": {
+            "l": 8
+        },
+        "Overall cost": 185.81505120282364
+    },
+    {
+        "Params": {
+            "l": 9
+        },
+        "Overall cost": 181.63372143811003
+    },
+    {
+        "Params": {
+            "l": 10
+        },
+        "Overall cost": 177.48487143342265
+    },
+    {
+        "Params": {
+            "l": 11
+        },
+        "Overall cost": 173.3035416715148
+    },
+    {
+        "Params": {
+            "l": 12
+        },
+        "Overall cost": 169.1539679784496
+    },
+    {
+        "Params": {
+            "l": 13
+        },
+        "Overall cost": 164.97264602380858
+    },
+    {
+        "Params": {
+            "l": 14
+        },
+        "Overall cost": 160.8226433613683
+    },
+    {
+        "Params": {
+            "l": 15
+        },
+        "Overall cost": 156.6623681175646
+    },
+    {
+        "Params": {
+            "l": 16
+        },
+        "Overall cost": 153.0804496260006
+    },
+    {
+        "Params": {
+            "l": 17
+        },
+        "Overall cost": 153.65642808166191
+    },
+    {
+        "Params": {
+            "l": 18
+        },
+        "Overall cost": 154.5448234773358
+    },
+    {
+        "Params": {
+            "l": 19
+        },
+        "Overall cost": 156.64816328072538
+    },
+    {
+        "Params": {
+            "l": 20
+        },
+        "Overall cost": 157.56223610186277
+    },
+    {
+        "Params": {
+            "l": 21
+        },
+        "Overall cost": 159.65851553911256
+    },
+    {
+        "Params": {
+            "l": 22
+        },
+        "Overall cost": 160.5650882346733
+    },
+    {
+        "Params": {
+            "l": 23
+        },
+        "Overall cost": 162.65461104868922
+    },
+    {
+        "Params": {
+            "l": 24
+        },
+        "Overall cost": 163.55486087501546
+    },
+    {
+        "Params": {
+            "l": 25
+        },
+        "Overall cost": 165.6386630644185
+    },
+    {
+        "Params": {
+            "l": 26
+        },
+        "Overall cost": 166.53350551323493
+    },
+    {
+        "Params": {
+            "l": 27
+        },
+        "Overall cost": 168.6123926501481
+    },
+    {
+        "Params": {
+            "l": 28
+        },
+        "Overall cost": 169.50254769128335
+    },
+    {
+        "Params": {
+            "l": 29
+        },
+        "Overall cost": 171.5771589865255
+    },
+    {
+        "Params": {
+            "l": 30
+        },
+        "Overall cost": 172.46320375090218
+    },
+    {
+        "Params": {
+            "l": 31
+        },
+        "Overall cost": 174.53405542986232
+    },
+    {
+        "Params": {
+            "l": 32
+        },
+        "Overall cost": 175.41646021144894
+    },
+    {
+        "Params": {
+            "l": 33
+        },
+        "Overall cost": 177.48397557482915
+    },
+    {
+        "Params": {
+            "l": 34
+        },
+        "Overall cost": 178.3631291160393
+    },
+    {
+        "Params": {
+            "l": 35
+        },
+        "Overall cost": 180.4276599109304
+    },
+    {
+        "Params": {
+            "l": 36
+        },
+        "Overall cost": 181.30388758889737
+    },
+    {
+        "Params": {
+            "l": 37
+        },
+        "Overall cost": 183.36572954312769
+    },
+    {
+        "Params": {
+            "l": 38
+        },
+        "Overall cost": 184.23930672501018
+    },
+    {
+        "Params": {
+            "l": 39
+        },
+        "Overall cost": 186.29871106122144
+    },
+    {
+        "Params": {
+            "l": 40
+        },
+        "Overall cost": 187.16987309357862
+    },
+    {
+        "Params": {
+            "l": 41
+        },
+        "Overall cost": 189.22705521218117
+    },
+    {
+        "Params": {
+            "l": 42
+        },
+        "Overall cost": 190.0960050157448
+    },
+    {
+        "Params": {
+            "l": 43
+        },
+        "Overall cost": 192.15115114459036
+    },
+    {
+        "Params": {
+            "l": 44
+        },
+        "Overall cost": 193.01806507350685
+    },
+    {
+        "Params": {
+            "l": 45
+        },
+        "Overall cost": 195.07133743139156
+    },
+    {
+        "Params": {
+            "l": 46
+        },
+        "Overall cost": 195.9363698534688
+    },
+    {
+        "Params": {
+            "l": 47
+        },
+        "Overall cost": 197.98791071005724
+    },
+    {
+        "Params": {
+            "l": 48
+        },
+        "Overall cost": 198.85119763017718
+    },
+    {
+        "Params": {
+            "l": 49
+        },
+        "Overall cost": 200.90113253464594
+    },
+    {
+        "Params": {
+            "l": 50
+        },
+        "Overall cost": 201.7627944925265
+    },
+    {
+        "Params": {
+            "l": 51
+        },
+        "Overall cost": 203.81123486784705
+    }
+]

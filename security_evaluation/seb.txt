@@ -1,0 +1,13 @@
+"""
+Range Seb
+#max_ε1 = ceil(u0/4)
+#max_ε2 = round((u0/8) + (ε1/4)) 
+for ε2 in range(0, max_ε2+1):
+#max_δ1 = round((u0/2)-ε1)
+for δ1 in range(0, max_δ1+1):
+#for δ1 in range(0, min(max_δ1, 17)+1):
+#max_δ2 = round((u0/4)+(ε1/2)-ε2)
+#max_δ1 = round((u0/2)-ε1)
+for δ2 in range(0, max_δ2+1):
+#for δ2 in range(0, min(max_δ2, 9)+1):
+"""
